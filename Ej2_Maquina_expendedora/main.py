@@ -6,6 +6,7 @@ from maquina import (menu,
                     faltante)
 
 menu()
+
 producto_elegido = (input("Seleccione el producto: ")).lower()
 while not verificar_producto(producto_elegido):
         print("Producto no válido, seleccione nuevamente")
